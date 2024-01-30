@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faisal Raza</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <script>
+        function rain() {
+            let amount = 400;
+            let body = document.querySelector('body');
+            let i = 0;
+            while (i < amount) {
+                let drop = document.createElement('i');
+
+                let size = Math.random() * 1;
+                let posX = Math.floor(Math.random() * window.innerWidth);
+                let delay = Math.random() * -20;
+                let duration = Math.random() * 5;
+                
+                drop.style.width = 0.2 + size + 'px';
+                drop.style.left = posX + 'px';
+                drop.style.animationDelay = delay + 's';
+                drop.style.animationDuration = 3 + duration + 's';
+                body.appendChild(drop);
+                i++;
+            }
+        }
+        rain();
+    </script>
+
+    <nav>
+        <h7>
+            <p><a href="contact.html">Contact Faisal</a></p>
+            <br>
+        </h7>
+    </nav>
+
+    <section>
+     
+        <br>
+        <h1>Faisal Raza</h1>
+        <br>
+        <h2>Computer Science Student at the University of Georgia</h2>
+        <div class="row">
+            <div class="column1">
+                <img src="images/arch.jpg" alt= "arch photo" width="110" height="150">
+            </div>
+            <div class="column2">
+                <img src="images/Yourself.jpg" alt="A description of yourself" width="110" height="150">
+            </div>
+            <div class="column3">
+                <img src="images/UGA.jpg" alt="univ. GA image" width="300" height="150">
+            </div>
+        </div>
+        <br>
+        <h2>Welcome</h2>
+        <br>
+        
+        <h3>Following my graduation from the University of Georgia, &nbsp I plan to end up on yacht with my homies somewhere.</h3>
+        <br>
+        <hr>
+<br>
+        <h4>About Faisal</h4>
+
+        <!-- Languages Card -->
+        <div class="card card-languages">
+            <h5>Languages:</h5>
+            <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>C/C++</li>
+                <li>SQL</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+
+            </ul>
+        </div>
+
+        <!-- Leadership and Experience Card -->
+        <div class="card card-leadershipandexperience">
+            <h5>Leadership and Experience:</h5>
+            <dl>
+                <dt> Aug 2023 - Dec 2024</dt>
+                <dd><a href="https://www.SpaceX.com" target="_blank">Internship at SpaceX </a></dd>
+                <dt>May 2023 - Aug 2023</dt>
+                <dd><a href="https://www.NASA.com" target="_blank">Internship at the International Space Station</a></dd>
+                <dt>May 2022 - Aug 2022</dt>
+                <dd><a href="https://NASA.com" target="_blank"> Internship at NASA</a></dd>
+                <dt>Dec 2022 - May 2022</dt>
+                <dd><a href="https://USA.com" target="_blank"> President of the United States of America</a></dd>
+            </dl>
+        </div>
+
+        <!-- Skills Card -->
+        <div class="card card-skills">
+            <h5>Skills:</h5>
+            <dl>
+                <dt>Leadership</dt>
+                <dd>&#128016;</dd>
+                <dt>Communication</dt>
+                <dd>&#128016;</dd>
+                <dt>Teamwork</dt>
+                <dd>&#128016;</dd>
+                <dt>Problem Solving</dt>
+                <dd>&#128016;</dd>
+                <dt>Time Management</dt>
+                <dd>&#128016;</dd>
+                <dt>Problem Solving</dt>
+                <dd>&#128016;</dd>
+                <dt>Customer Service</dt>
+                <dd>&#128016;</dd>
+                <dt>Analytical Skills</dt>
+                <dd>&#128016;</dd>
+            </dl>
+        </div>
+    </section>
+    <div class="card card-footer">
+    <footer>
+        <p><a href="contact.html">Faisal Raza</a></p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
